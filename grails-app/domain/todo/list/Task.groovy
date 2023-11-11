@@ -9,9 +9,9 @@ class Task {
     LocalDateTime deadline
     Integer priority
     TaskStatus status
-    Integer category_id
-    Integer user_id
-    static  belongsTo = [category: Category, user: Usuario]
+
+    static  belongsTo = [category: Category, usuario: Usuario]
+    static hasMany = [alarms: Alarm]
 
     static constraints = {
         name blank: false
@@ -19,7 +19,5 @@ class Task {
         deadline blank: false
         priority blank: false
         status blank: false
-        category_id blank: false
-        user_id blank: false
     }
 }
