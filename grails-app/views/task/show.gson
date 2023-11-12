@@ -1,0 +1,7 @@
+import todo.list.Task
+
+model {
+	Task task
+}
+
+json tmpl.task(task)

@@ -1,5 +1,6 @@
 package todo.list
 
+import todo.list.enums.TaskStatus
 import java.time.LocalDateTime
 
 class Task {
@@ -18,6 +19,6 @@ class Task {
         description blank: false
         deadline blank: false
         priority blank: false
-        status blank: false
+        status nullable: false
     }
 }

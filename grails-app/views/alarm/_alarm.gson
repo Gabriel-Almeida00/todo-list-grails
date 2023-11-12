@@ -1,0 +1,7 @@
+import todo.list.Alarm
+
+model {
+	Alarm alarm
+}
+
+json g.render(alarm, [resolveTemplate: false])

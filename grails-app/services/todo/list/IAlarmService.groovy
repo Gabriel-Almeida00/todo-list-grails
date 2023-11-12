@@ -2,6 +2,7 @@ package todo.list
 
 import grails.gorm.services.Service
 
-@Service(Usuario)
-interface IUsuarioService {
+@Service(Alarm)
+interface IAlarmService {
+
 }

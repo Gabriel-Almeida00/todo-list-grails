@@ -3,5 +3,7 @@ package todo.list
 import grails.gorm.transactions.Transactional
 
 @Transactional
-class UsuarioService   {
+class AlarmService implements IAlarmService {
+
+
 }

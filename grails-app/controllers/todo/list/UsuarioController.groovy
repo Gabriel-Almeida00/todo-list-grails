@@ -9,6 +9,6 @@ class UsuarioController extends RestfulController {
     UsuarioController() {
         super(Usuario)
     }
-
     UsuarioService usuarioService
+
 }

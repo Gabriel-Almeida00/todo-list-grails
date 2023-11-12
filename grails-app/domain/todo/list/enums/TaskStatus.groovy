@@ -1,4 +1,4 @@
-package todo.list
+package todo.list.enums
 
 enum TaskStatus {
     TODO,

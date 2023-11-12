@@ -1,0 +1,7 @@
+import todo.list.Alarm
+
+model {
+	Alarm alarm
+}
+
+json tmpl.alarm(alarm)
